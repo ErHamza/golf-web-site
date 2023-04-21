@@ -1,0 +1,821 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px #D4E0D9 solid;
+    padding: 8px 0;
+    /* padding-bottom: 10px; */
+
+    /* margin-top: 10px; */
+
+}
+
+.icons-header{
+    display: none;
+
+}
+
+
+
+
+
+/* text-align: center; */
+
+
+.grid1{
+    width: 100%;
+    
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 60px 438px 323px ; */
+    grid-template-rows: auto;
+    justify-items: center;
+    
+    row-gap: 10px;
+}
+
+.background-desktop{
+    width: 100%;
+}
+.text-style{
+    /* width: 360.8px; */
+    width: 100%;
+
+    color:green;
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    text-align: center;
+    text-align-last: center;
+}
+
+
+.golf-style{
+
+width: 90%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #031F0F;
+margin: 0 auto;
+margin-top: 1.5rem;
+text-align: center;
+}
+
+.icons-body{
+    width: 90%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.2rem;
+    margin : 0 auto;
+    margin-top: 1.5rem;
+    
+
+}
+
+
+/* .what causing the buttom bar is the width in grid1 */
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    grid-template-rows: repeat(4, auto);
+    
+    
+    margin: 0 auto;
+    background-image: url('./assets/Rectangle web 1.png') ;
+    background-size: cover;
+    background-color: #11592d;
+    border-radius: 4.7%;
+    
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    height: 439px;
+}
+
+/* .sign-up{
+    background-image: url('./assets/Rectangle web 1.png') ;
+    background-size: contain;
+    width: 398px;
+    height: 439px;
+    
+    background-color: #176B3A;
+    
+    border-radius: 4.7%;
+    mix-blend-mode:multiply;
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+
+
+
+
+
+.grid2 .text{
+ margin-left: 20px;    
+width: 305px;
+color:white;
+position: relative;
+top:40px;
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 44px;
+}
+
+.lunch{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 323px;
+    font-family: 'Roboto';  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color:white;
+    position: relative;
+    top:40px;
+}
+
+.for-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.for-buttons input{
+    
+    margin: 0 auto;
+    width: 90%;
+    height: 59px;
+    position: relative;
+    top:40px;
+    background: transparent;
+    color:white;
+    border: 1px solid white;
+    border-radius: 4px;
+    outline: none;
+}
+
+.for-buttons button{
+    /* max-width: 300px; */
+    padding: 15px 49px;
+    margin: 0 auto;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 90%;
+    /* Text */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    
+    outline: none;
+
+/* identical to box height */
+text-align: center;
+
+/* Primary */
+color: #176B3A;
+}
+
+
+.it-works{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+
+.how-works  {
+    color:green;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 59px;
+    
+    /* identical to box height, or 188% */
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    }
+
+    p.introducing{
+        
+        width: 99%;
+        
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 44px;
+    text-align: center;
+    
+    color: black
+    
+} 
+
+p.desc{
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* text-align: center; */
+    margin-top:1.2rem ;
+    text-align: center;
+    /* #031F0F */
+    color: #3D3D3D;
+    }
+
+
+
+.grid3{
+    /* display: grid; */
+    display: flex;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 60px 438px 323px ; */
+    grid-template-rows: auto;
+    justify-items: center;
+    /* row-gap: 10px; */
+    gap: 10px;
+    flex-direction: column;
+    width: 100%;
+    /* justify-items: center; */
+    align-items: center;
+}
+
+
+.icons{
+    width: 300px;
+    display: flex;
+    margin-bottom: 3rem;
+    
+    padding: 0;
+    flex-direction: row;
+    gap:17px;
+    flex-basis: auto;
+    /* object-fit: cover; */
+    /* grid-template-columns: 1fr 1fr; */
+    
+
+}
+
+
+
+
+
+ .grid3-side1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+
+.features{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+
+/* identical to box height, or 188% */
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+/* Primary */
+color: #176B3A;
+}
+
+.local{
+width: 95%;
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 44px;
+text-align: center;
+
+/* Content */
+color: #031F0F;
+margin-top: .6rem;
+
+
+}
+
+.under-local{
+    width: 100%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+margin-top: .6rem;
+
+/* or 167% */
+text-align: center;
+
+/* Content */
+color: #031F0F;
+}
+
+.btn{
+    
+    width: 95%;
+    border: 1px solid white;
+    padding: .5em;
+    margin:0 auto ;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 19px;
+   margin-top: 1rem;
+
+/* identical to box height */
+text-align: center;
+}
+.btn:hover{
+    /* background-color: lightgreen; */
+    font-size: 1.2em;
+    /* color: black; */
+    cursor:pointer;
+    outline: navajowhite;
+    
+}
+
+.location{
+    margin-top: 80px;
+}
+.find{
+ font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 44px;
+text-align: center;
+
+/* Content */
+color: #031F0F;
+}
+
+.grid3-text-findGolfers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+
+.find-desc{
+    width: 80%;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #031F0F;
+/* text-align-last: center; */
+
+
+}
+button.style{
+padding: 0.7em;
+border: 1px solid white;
+background-color: green;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+text-align: center;
+cursor: pointer;
+color: #FFFFFF;
+
+}
+
+.grid4{
+    margin:0 auto;
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items:center;
+    width: 95%;
+    background-color:#176B3A;
+    border-radius: 20px;
+
+}
+img.peter{
+    position: relative;
+    top:-40px;
+}
+.grid4-side{
+    text-align: center;
+    width: 100%;
+}
+
+p.vacation{
+width: 100%;
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 44px;
+text-align: center;
+
+/* #FFFFFF */
+color: #FFFFFF;
+}
+
+p.vacation-desc{
+width: 95%;
+margin: 0 auto;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+
+/* or 167% */
+text-align: center;
+
+/* #FFFFFF */
+color: #FFFFFF;
+}
+
+
+.grid5{
+    margin:0 auto;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+    
+    align-items:center;
+    width: 100%;
+    
+    border-radius: 20px;
+}
+
+
+.about-logo{
+    margin-top: 30px;
+    
+}
+
+
+
+.under-logo-text{
+
+width: 80%;
+color:green;
+font-family: 'Circular Std';
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 44px;
+text-align: center;
+}
+
+.marginTop{
+    margin-top: .75rem;
+}
+
+.marginBo{
+    margin-bottom:.75rem ;
+}
+
+.under-logo-text-desc{
+    
+width: 80%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+
+/* or 167% */
+text-align: center;
+
+/* #031F0F */
+color: #3D3D3D;
+}
+
+
+
+.copyright{
+    width: 100%;
+border-top: #3D3D3D 1px solid;
+padding: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+
+/* Content */
+color: #031F0F;
+
+opacity: 0.5;
+}
+
+
+/* now for Desctop */
+
+@media screen and (min-width : 768px){
+    .header{
+        width: 100%;
+    
+        background-color: white;
+        display: flex;
+        justify-content: left;
+        border-bottom: 1px #D4E0D9 solid;
+        /* padding-bottom: 10px; */
+        
+    }
+   
+    .icons-header{
+        width: 300px;
+        display: flex;
+        height: 40px;
+        gap: .8rem;
+        margin: auto 0;
+        margin-left: 50%;
+       
+        
+    }
+   
+    .header-image{
+        align-self: center;
+        height: 50px;
+        margin: auto 0;
+        margin-left: 10%;
+    }
+    
+    .grid1{
+        
+        margin-top: 40px;
+        grid-template-columns:70% 30% ;
+        /* grid-template-rows: 100vh; */
+        background: linear-gradient(186.55deg, #FFFFFF 5.15%, #FAFEFB 100.82%);
+        /* remove later */
+        margin-bottom: 50px;
+        
+        
+    }
+    .background-desktop{
+        /* display: grid; */
+        /* grid-template-rows: repeat(3,1fr); */
+        /* justify-self: center; */
+        width: 100%;
+        /* row-gap: 0; */
+        position: relative;
+        order: 1;
+        /* font-size  : 60px; */
+        /* font-weight: 900; */
+        /* justify-items: center; */
+    
+          }
+
+.background-desktop ::before {
+
+    position: absolute;
+    content: "";
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity:0.04 ;
+    background-image: url("./assets/vector.png");
+     background-size:contain ;
+    background-repeat: no-repeat;
+
+}
+
+
+.text-style {
+        width: 66%;    
+        text-align: left;
+        text-align-last:left ;        
+        margin-top: 10%;
+        margin-left: 23%;
+        font-weight: 900;
+        overflow: hidden;
+       
+    }
+   
+    
+.golf-style{
+        width: 59%;
+        text-align: left;
+        text-align-last: left;
+        margin-left: 23%;
+        /* z-index: 3; */
+        
+    }
+
+    .grid1 .icons-body{
+        width: 300px;
+        margin-left: 23%;
+    }
+
+     .grid1 img.golf-phone{order: 2;
+    justify-self: start;
+    height: 80vh;}
+   
+
+
+    .grid2{ 
+        margin-top: 5rem;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 1fr;
+
+        background-image: url('./assets/Rectangle 1.png') ;
+        background-size: cover;
+        background-position: 100%;
+        
+        background-repeat: no-repeat; 
+        width: 95%;
+        column-gap: 0;
+
+        height: 354px;
+    
+        border-radius: 8px;
+        /* justify-items: center; */
+        
+
+    }
+    
+
+    .for-buttons {
+       margin-top: 2.5em;
+       width: 100%;
+       
+       
+       
+        
+        
+        
+    }
+    .for-buttons input{
+        width: 90%;
+        margin: 0;
+    }
+    .for-buttons button{
+        margin: 0 ;
+        width: 50%;
+    }
+   
+
+   
+
+
+    .for-text {
+        margin-top: 5%;
+        width: 80%;
+        justify-self: center;
+    }
+
+
+    .for-text .text{
+        width:300px ;
+    }
+
+
+    .for-text .lunch{
+        /* width: 80%; */
+        width: 27rem;
+        font-size: 18px;
+    }
+    
+
+    .grid3{
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 10%;
+        row-gap: 0;
+    }
+
+    .grid3-image1{
+        justify-self:end;
+        order: 1;
+    }
+    .grid3-side1{
+        display: flex;
+        flex-direction: column;
+        justify-self: start;
+        width: 70%;
+        text-align: start;
+        order: 2;
+        
+    }
+    .under-local{
+text-align: start;
+    }
+
+   .features{
+    text-align: start;
+   }
+
+   .local{
+    text-align: start;
+   }
+
+   .grid3-side1 button{
+    margin-top: 1em;
+    width: 50%;
+    
+   }
+
+   .location{
+    position: relative;
+    top:-4rem;
+    order: 4;
+    justify-self: start;
+    margin: 0;
+    
+   }
+   .grid3-text-findGolfers{
+    position: relative;
+    left:5rem;
+    order: 3;
+    justify-self: end;
+    margin: 0;
+    width: 70%;
+        
+   }
+   .find{
+    text-align: left;
+    width: 100%;
+   }
+   .find-desc{
+    text-align: left;
+    width: 100%;
+   }
+   .grid3-text-findGolfers .style{
+    align-self: flex-start;
+   }
+
+   .grid4{
+    display: grid;
+    grid-template-columns:35% 60% ;
+    column-gap: 5%;
+    background-color: #176b3a;
+   }
+
+   .grid4 .peter{
+    justify-self: right;
+   }
+
+
+   .grid4-side{
+    align-self: center;
+   }
+
+   .grid4-side .vacation {
+    width:50%;
+    text-align: left;
+   }
+   
+   .grid4-side .vacation-desc{
+    margin :0;
+    width: 82%;
+    text-align: left;
+   }
+   
+
+}
